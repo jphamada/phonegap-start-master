@@ -40,12 +40,12 @@
     document.addEventListener("deviceready", onDeviceReady, false);
 
     // Cordova is ready
+    var ref = window.open('http://anagramaestudio.com.ar', '_blank','location=no');
+    ref.addEventListener('loadstart', function(event) { console.log(event.type + ' - ' + event.url); } );
+    ref.addEventListener('loadstop', function(event) { console.log(event.type + ' - ' + event.url); } );
+    ref.addEventListener('exit', function(event) { console.log(event.type); } );
     //
-    function onDeviceReady() {
-        // external url
-        var ref = window.open(encodeURI('http://anagramaestudio.com.ar'), '_self', 'location=no');
-       
-    }
+
 
     </script>
     </body>
