@@ -23,12 +23,24 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
         <title>Anagrama Moblie</title>
         
     </head>
     <body>
         <div class="app">
-            <h1>Cargando...</h1>
+        <img src="img/logo.png">
+        <br>
+        <button class="btn btn-large btn-primary" onClick="window.open(encodeURI('http://anagramaestudio.com.ar/diseno-web-identidad/'), '_self', 'location=no');"><span class="icon">Diseño Web</span></button>
+        <br><br>
+        <button class="btn btn-large btn-warning" onClick="window.open(encodeURI('http://www.anagramaestudio.com.ar/marketing-digital/'), '_self', 'location=no');"><span class="icon">Marketing Digital</span></button>
+        <br><br>
+        <button class="btn btn-large btn-success" onClick="window.open(encodeURI('http://www.anagramaestudio.com.ar/clientes-2/'), '_self', 'location=no');"><span class="icon">Nuestros Clientes</span></button>
+        <br><br>
+        <a href="tel:5493876114361"><button type="button" class="btn btn-warning">Llamanos</button></a>
+        <br><br>
+        <a href="mailto:info@anagramaestudio.com.ar"><button type="button" class="btn btn-primary">Escribinos</button></a>
+        
         </div>
         <script type="text/javascript" src="phonegap.js"></script>
         <script type="text/javascript" src="js/index.js"></script>
@@ -39,15 +51,15 @@
     //
     document.addEventListener("deviceready", onDeviceReady, false);
 
-   // Cordova is ready
+    // Cordova is ready
+    
     //
-    function onDeviceReady() {
-        // external url
-        var ref = window.open(encodeURI('http://anagramaestudio.com.ar'), '_self', 'location=no');
-        ref = window.open('next.html', '_self');
+   
     }
 
-
     </script>
+
+
+    
     </body>
 </html>
