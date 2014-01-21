@@ -41,7 +41,15 @@
 
     // Cordova is ready
     
+    
+    //
     function onDeviceReady() {
+        // external url
+        var ref = window.open(encodeURI('http://anagramaestudio.com.ar'), '_self', 'location=no');
+       
+    }
+    
+        function onDeviceReady() {
         // Añade una función 'callback' al evento 'backbutton'
         document.addEventListener("backbutton", onBackKeyDown, false);
     }
@@ -51,13 +59,6 @@
     function onBackKeyDown() {
     }
 
-    
-    //
-    function onDeviceReady() {
-        // external url
-        var ref = window.open(encodeURI('http://anagramaestudio.com.ar'), '_self', 'location=no');
-       
-    }
 
     </script>
     </body>
