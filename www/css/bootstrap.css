@@ -6203,7 +6203,11 @@ button.close {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 
+.imagenpagina img {
+  width: 100%;
+}
 .logogaceta img {
   float:right;
   padding-right: 5px;
+  width: 100%;
 }
