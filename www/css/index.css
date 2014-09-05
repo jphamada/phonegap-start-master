@@ -31,7 +31,7 @@ body {
     font-size:18px;
     height:100%;
     margin:0px;
-    padding:10px;
+    padding:0px;
     width:100%;
 }
 
@@ -49,6 +49,9 @@ body {
                                    /* offset horizontal: half of text area width */
 }
 
+.container {
+    padding: 5px;
+}
 .botonera a{
     font-size: 28px;
     text-decoration: none;
