@@ -62,6 +62,7 @@ dfn {
 h1 {
   margin: .67em 0;
   font-size: 2em;
+  color: #870e15;
 }
 mark {
   color: #000;
@@ -999,7 +1000,7 @@ h6,
   font-family: inherit;
   font-weight: 500;
   line-height: 1.1;
-  color: inherit;
+  color: #870e15;
 }
 h1 small,
 h2 small,
@@ -1027,7 +1028,7 @@ h6 .small,
 .h6 .small {
   font-weight: normal;
   line-height: 1;
-  color: #777;
+  color: #870e15;
 }
 h1,
 .h1,
@@ -4552,7 +4553,7 @@ a.list-group-item.active > .badge,
 }
 .jumbotron h1,
 .jumbotron .h1 {
-  color: inherit;
+  color: #870e15;
 }
 .jumbotron p {
   margin-bottom: 15px;
@@ -6201,3 +6202,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+.logogaceta img {
+  float:right;
+  padding-right: 5px;
+}
